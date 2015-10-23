@@ -379,16 +379,26 @@
                                             <segue destination="lGM-9I-lan" kind="unwind" unwindAction="unwindToLogInScreen:" id="rck-eb-8Ng"/>
                                         </connections>
                                     </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fPA-kb-K6s">
+                                        <rect key="frame" x="13" y="111" width="245" height="30"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="fPA-kb-K6s" firstAttribute="leading" secondItem="edZ-iH-Jh4" secondAttribute="leading" id="G3J-xn-DFF"/>
                                     <constraint firstItem="rK1-jd-Ce7" firstAttribute="top" secondItem="0VM-wZ-Vmt" secondAttribute="bottom" constant="20" id="L87-hX-OFS"/>
                                     <constraint firstItem="edZ-iH-Jh4" firstAttribute="centerX" secondItem="S5G-pa-vha" secondAttribute="centerX" constant="-0.5" id="M4A-p1-K5H"/>
                                     <constraint firstItem="UMR-4f-8w6" firstAttribute="top" secondItem="rK1-jd-Ce7" secondAttribute="bottom" constant="32" id="Mnf-rm-ZFf"/>
                                     <constraint firstAttribute="width" constant="270" id="NOc-Fk-3Jh"/>
+                                    <constraint firstItem="fPA-kb-K6s" firstAttribute="centerY" secondItem="S5G-pa-vha" secondAttribute="centerY" id="Rri-ce-oqP"/>
+                                    <constraint firstItem="fPA-kb-K6s" firstAttribute="top" secondItem="r2B-ZX-Nmi" secondAttribute="bottom" constant="73" id="XOr-Db-ITL"/>
                                     <constraint firstAttribute="centerX" secondItem="S5G-pa-vha" secondAttribute="centerX" constant="-1" id="adY-fr-Zz8"/>
                                     <constraint firstItem="edZ-iH-Jh4" firstAttribute="centerX" secondItem="0VM-wZ-Vmt" secondAttribute="centerX" id="e0E-Bb-wq6"/>
+                                    <constraint firstItem="fPA-kb-K6s" firstAttribute="trailing" secondItem="edZ-iH-Jh4" secondAttribute="trailing" id="gj4-8e-3LH"/>
                                     <constraint firstItem="edZ-iH-Jh4" firstAttribute="top" secondItem="S5G-pa-vha" secondAttribute="bottom" constant="3" id="lPc-iu-aay"/>
                                     <constraint firstItem="rK1-jd-Ce7" firstAttribute="centerX" secondItem="0VM-wZ-Vmt" secondAttribute="centerX" id="m3U-6T-IDX"/>
                                     <constraint firstAttribute="height" constant="346" id="p5g-E7-1X5"/>
@@ -408,6 +418,7 @@
                     <connections>
                         <outlet property="emailField" destination="edZ-iH-Jh4" id="xpq-a7-eYQ"/>
                         <outlet property="passwordField" destination="rK1-jd-Ce7" id="Qlj-E9-dSz"/>
+                        <outlet property="phoneField" destination="fPA-kb-K6s" id="lfd-Az-akP"/>
                         <outlet property="usernameField" destination="0VM-wZ-Vmt" id="Cjc-ER-xDi"/>
                     </connections>
                 </viewController>
