@@ -14,7 +14,7 @@ class SignUpViewController: UIViewController {
 	@IBOutlet weak var emailField: UITextField!
 	@IBOutlet weak var usernameField: UITextField!
 	@IBOutlet weak var passwordField: UITextField!
-	@IBOutlet weak var phoneField: UITextField!
+	//@IBOutlet weak var phoneField: UITextField!
 	var phoneNumber: String = ""
 	var preferredLanguage: String! = "en"
 	
@@ -22,7 +22,7 @@ class SignUpViewController: UIViewController {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
 		
-		phoneField.hidden = true
+		//phoneField.hidden = true
 		
 		let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "DismissKeyboard")
 		view.addGestureRecognizer(tap)
@@ -152,7 +152,7 @@ class SignUpViewController: UIViewController {
 					self.presentViewController(myAlert, animated: true, completion: nil)
 					
 				} else {
-					newUser.setObject(self.phoneField.text!, forKey: "phone_number")
+					/*newUser.setObject(self.phoneField.text!, forKey: "phone_number")*/
 					let myAlert = UIAlertController(title:"Success", message:"Signed up!", preferredStyle:UIAlertControllerStyle.Alert)
 					let okAction = UIAlertAction(title: "Ok", style: .Default) { (_) in }
 					myAlert.addAction(okAction)
