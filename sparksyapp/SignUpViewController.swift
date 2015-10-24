@@ -146,6 +146,21 @@ class SignUpViewController: UIViewController {
 				// Stop the spinner
 				spinner.stopAnimating()
 				if ((error) != nil) {
+					let alert = UIAlertView(title: "Error", message: "\(error)", delegate: self, cancelButtonTitle: "OK")
+					alert.show()
+					
+				} else {
+					let alert = UIAlertView(title: "Success", message: "Signed Up", delegate: self, cancelButtonTitle: "OK")
+					alert.show()
+					dispatch_async(dispatch_get_main_queue(), { () -> Void in
+						let viewController:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Home") 
+						self.presentViewController(viewController, animated: true, completion: nil)
+					})
+				}
+			})
+			
+			
+				/*if ((error) != nil) {
 					let myAlert = UIAlertController(title:"Error", message:error!.localizedDescription, preferredStyle:UIAlertControllerStyle.Alert)
 					let okAction = UIAlertAction(title: "Ok", style: .Default) { (_) in }
 					myAlert.addAction(okAction)
@@ -163,7 +178,7 @@ class SignUpViewController: UIViewController {
 						self.presentViewController(viewController, animated: true, completion: nil)
 					})
 				}
-			})
+			})*/
 		}
 	
 	}
