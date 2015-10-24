@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F6FCF15CC1F4F05C46539443FDA2AAB /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A83C101219E7ED4222CD65BCE24B0A5E /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E7623B9420C3E71FAE3287C0CECA040 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40C42F3F5DD94F29414FB7BF431221AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1264325C4220C1BDC3C73E5D496129FD /* CoreGraphics.framework */; };
+		634BF85BE1A6B61EB549854BD0254A1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */; };
+		7223F2D78A55A3B6DF2F4C9373E140BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */; };
+		87DDD68B530D5C298C23DE3DA4E6B2C3 /* Pods-SparksyAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0386F82F616DBC0A9175342695A47C2 /* Pods-SparksyAppUITests-dummy.m */; };
+		99B82FC54E1EC993C0B8C8FCD9D231CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */; };
+		9E17CC11959A1FE5566CE528047ACDC0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A95EACA8C4CF4290875825A0014E8AF3 /* Pods-SparksyApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3EE04DAAE10C1ADDC6EB5BDD3E8171 /* Pods-SparksyApp-dummy.m */; };
+		BB010EE04BA829E196554A00A951AA7C /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B46DBFF3A36C2A3BFA5CD06A1960E97F /* MBProgressHUD-dummy.m */; };
+		BF530E2AFC7ED50D93E33FF372745603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */; };
+		D33454BCA4C66B221EFD282F4C800E2E /* Pods-SparksyAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF83EF1F0B9F7309DD750D409469520D /* Pods-SparksyAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8DE5BE16DFB8C796BEF36752FA151B9 /* Pods-SparksyApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB69C74DCA869AB494251037EF48C40 /* Pods-SparksyApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E20DB8AEBF20EF83EF36A1EE7D484EFF /* Pods-SparksyAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F92081EF9C3647DA1D2EDE6279830949 /* Pods-SparksyAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9ABB2B318CA1B843C01B7DBC8D58F89 /* Pods-SparksyAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4481DE719D450DF1288BDA03EE1B3E /* Pods-SparksyAppTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2912A556811B33B68A897F82775649F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E61CE3B6DFA1FE6B3E296965C76C0E10;
+			remoteInfo = MBProgressHUD;
+		};
+		D9695FDA39C7B0A84C41B2C7AF91F826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E61CE3B6DFA1FE6B3E296965C76C0E10;
+			remoteInfo = MBProgressHUD;
+		};
+		FD36B64669B20C782115F966788C3F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E61CE3B6DFA1FE6B3E296965C76C0E10;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FB4F992FE21880D722B388F3CB256D /* Pods-SparksyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SparksyAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		07D233EF61383229B50094601B10220B /* Pods-SparksyAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SparksyAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		108E2869B9B5CCE7E62C3CBDE36114E8 /* Pods-SparksyAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SparksyAppUITests-resources.sh"; sourceTree = "<group>"; };
+		1264325C4220C1BDC3C73E5D496129FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		237FFD765EC4E822AF7BF37D8EDB9F52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C3530A4C0D7C7F38C1E5909176B61C5 /* Pods_SparksyAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparksyAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB8896AB9532A1087067DADE4743A36 /* Pods_SparksyAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparksyAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E948ED1F4492A2C00E6F93783E891A5 /* Pods-SparksyAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SparksyAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3B3EE04DAAE10C1ADDC6EB5BDD3E8171 /* Pods-SparksyApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SparksyApp-dummy.m"; sourceTree = "<group>"; };
+		45F7B1ADFBAA5AD7174555013C33C5A8 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		4FFD889DD6C0AFFDDE556FEFBC4780A7 /* Pods_SparksyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparksyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B4E041E26F3CEBF557BB554EAEC797 /* Pods-SparksyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SparksyApp.release.xcconfig"; sourceTree = "<group>"; };
+		6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74B85B9D76DED12A2A916352E9F4AD36 /* Pods-SparksyAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SparksyAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C0A4803C7CC760F5F0DBC59D4A19BF7 /* Pods-SparksyAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SparksyAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E305494B50C7FE624253B8B1EDECA50 /* Pods-SparksyApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SparksyApp-resources.sh"; sourceTree = "<group>"; };
+		8AB69C74DCA869AB494251037EF48C40 /* Pods-SparksyApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SparksyApp-umbrella.h"; sourceTree = "<group>"; };
+		8AEC16E795BE5D508D144AA27771A5F6 /* Pods-SparksyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SparksyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		8F7491033CD944716FBD30816A5A400C /* Pods-SparksyAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SparksyAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A83C101219E7ED4222CD65BCE24B0A5E /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		AF83EF1F0B9F7309DD750D409469520D /* Pods-SparksyAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SparksyAppTests-umbrella.h"; sourceTree = "<group>"; };
+		B0386F82F616DBC0A9175342695A47C2 /* Pods-SparksyAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SparksyAppUITests-dummy.m"; sourceTree = "<group>"; };
+		B3460C6BB533BB76A7E8C648B2281F50 /* Pods-SparksyApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SparksyApp-frameworks.sh"; sourceTree = "<group>"; };
+		B46DBFF3A36C2A3BFA5CD06A1960E97F /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		B7199A7BE3A9B54B1A5B8AB62B6EBC96 /* Pods-SparksyAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SparksyAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B82E1A91E092108DC0AD9845E60E97CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB4481DE719D450DF1288BDA03EE1B3E /* Pods-SparksyAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SparksyAppTests-dummy.m"; sourceTree = "<group>"; };
+		BD6A6C698CE45F9FE8837B18BEB93251 /* Pods-SparksyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SparksyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C94BA16F2B505D9F4180910DBBFF49BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99A8C156273703F8CBC3DBDB0D9540D /* Pods-SparksyAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SparksyAppTests.modulemap"; sourceTree = "<group>"; };
+		CF695420A4F1A2A263E5DFE6BB644673 /* Pods-SparksyApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SparksyApp.modulemap"; sourceTree = "<group>"; };
+		D290FB4432F03189561C0FA64431B1F2 /* Pods-SparksyAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SparksyAppUITests.modulemap"; sourceTree = "<group>"; };
+		D44ABAB7202A44FF91F53F792D178D9B /* Pods-SparksyApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SparksyApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAD8121A5C3328901A8C8A3A52F416B4 /* Pods-SparksyAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SparksyAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD71A7E2391B90C816D7330BB6B999E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF40833BEC4F176FF66E74E5102378CE /* Pods-SparksyAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SparksyAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EA8F9502D83FEDAE486406FBDCD61AEA /* Pods-SparksyApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SparksyApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED1148F80CA16C09EC25BD5635C37AB5 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE624F85706BB6BA438EFAE964467A2C /* Pods-SparksyAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SparksyAppTests-resources.sh"; sourceTree = "<group>"; };
+		F561804416163A2E5EFC23029D9BD9A3 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		F92081EF9C3647DA1D2EDE6279830949 /* Pods-SparksyAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SparksyAppUITests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14162EC79BFD465705F086557F0D24B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634BF85BE1A6B61EB549854BD0254A1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6488DB2C9BB99C53077D390CE673DD56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C42F3F5DD94F29414FB7BF431221AC /* CoreGraphics.framework in Frameworks */,
+				7223F2D78A55A3B6DF2F4C9373E140BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D45CED6AC360923076BE7D424635FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B82FC54E1EC993C0B8C8FCD9D231CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A303E87BA46FB09347230F4027E3E3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF530E2AFC7ED50D93E33FF372745603 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06A83F8DAAACCA355290907ECFC80521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED1148F80CA16C09EC25BD5635C37AB5 /* MBProgressHUD.framework */,
+				4FFD889DD6C0AFFDDE556FEFBC4780A7 /* Pods_SparksyApp.framework */,
+				2C3530A4C0D7C7F38C1E5909176B61C5 /* Pods_SparksyAppTests.framework */,
+				2CB8896AB9532A1087067DADE4743A36 /* Pods_SparksyAppUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36C06A02A00144C64CD7282BA31846BD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1264325C4220C1BDC3C73E5D496129FD /* CoreGraphics.framework */,
+				6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36C06A02A00144C64CD7282BA31846BD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EEE78944FBF160162DB5A24340E6F23 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98E526F5A1DDA3077F2ACB3047768419 /* Pods-SparksyApp */,
+				F87BA4A0F1CBAF8F26DD3E3F27FD3017 /* Pods-SparksyAppTests */,
+				DEDB23113A20A1CEE16E72E8B821FA53 /* Pods-SparksyAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5836A44A75C427EBF4739C55E2315758 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9841862FE02BD09196B31E3026B4325C /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5836A44A75C427EBF4739C55E2315758 /* Pods */,
+				06A83F8DAAACCA355290907ECFC80521 /* Products */,
+				4EEE78944FBF160162DB5A24340E6F23 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9841862FE02BD09196B31E3026B4325C /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */,
+				8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */,
+				A965BDBE5FC4856535619D751B2F0F38 /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		98E526F5A1DDA3077F2ACB3047768419 /* Pods-SparksyApp */ = {
+			isa = PBXGroup;
+			children = (
+				C94BA16F2B505D9F4180910DBBFF49BF /* Info.plist */,
+				CF695420A4F1A2A263E5DFE6BB644673 /* Pods-SparksyApp.modulemap */,
+				EA8F9502D83FEDAE486406FBDCD61AEA /* Pods-SparksyApp-acknowledgements.markdown */,
+				D44ABAB7202A44FF91F53F792D178D9B /* Pods-SparksyApp-acknowledgements.plist */,
+				3B3EE04DAAE10C1ADDC6EB5BDD3E8171 /* Pods-SparksyApp-dummy.m */,
+				B3460C6BB533BB76A7E8C648B2281F50 /* Pods-SparksyApp-frameworks.sh */,
+				7E305494B50C7FE624253B8B1EDECA50 /* Pods-SparksyApp-resources.sh */,
+				8AB69C74DCA869AB494251037EF48C40 /* Pods-SparksyApp-umbrella.h */,
+				BD6A6C698CE45F9FE8837B18BEB93251 /* Pods-SparksyApp.debug.xcconfig */,
+				61B4E041E26F3CEBF557BB554EAEC797 /* Pods-SparksyApp.release.xcconfig */,
+			);
+			name = "Pods-SparksyApp";
+			path = "Target Support Files/Pods-SparksyApp";
+			sourceTree = "<group>";
+		};
+		A965BDBE5FC4856535619D751B2F0F38 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD71A7E2391B90C816D7330BB6B999E4 /* Info.plist */,
+				45F7B1ADFBAA5AD7174555013C33C5A8 /* MBProgressHUD.modulemap */,
+				4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */,
+				B46DBFF3A36C2A3BFA5CD06A1960E97F /* MBProgressHUD-dummy.m */,
+				F561804416163A2E5EFC23029D9BD9A3 /* MBProgressHUD-prefix.pch */,
+				A83C101219E7ED4222CD65BCE24B0A5E /* MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		DEDB23113A20A1CEE16E72E8B821FA53 /* Pods-SparksyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				237FFD765EC4E822AF7BF37D8EDB9F52 /* Info.plist */,
+				D290FB4432F03189561C0FA64431B1F2 /* Pods-SparksyAppUITests.modulemap */,
+				7C0A4803C7CC760F5F0DBC59D4A19BF7 /* Pods-SparksyAppUITests-acknowledgements.markdown */,
+				74B85B9D76DED12A2A916352E9F4AD36 /* Pods-SparksyAppUITests-acknowledgements.plist */,
+				B0386F82F616DBC0A9175342695A47C2 /* Pods-SparksyAppUITests-dummy.m */,
+				8F7491033CD944716FBD30816A5A400C /* Pods-SparksyAppUITests-frameworks.sh */,
+				108E2869B9B5CCE7E62C3CBDE36114E8 /* Pods-SparksyAppUITests-resources.sh */,
+				F92081EF9C3647DA1D2EDE6279830949 /* Pods-SparksyAppUITests-umbrella.h */,
+				B7199A7BE3A9B54B1A5B8AB62B6EBC96 /* Pods-SparksyAppUITests.debug.xcconfig */,
+				2E948ED1F4492A2C00E6F93783E891A5 /* Pods-SparksyAppUITests.release.xcconfig */,
+			);
+			name = "Pods-SparksyAppUITests";
+			path = "Target Support Files/Pods-SparksyAppUITests";
+			sourceTree = "<group>";
+		};
+		F87BA4A0F1CBAF8F26DD3E3F27FD3017 /* Pods-SparksyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B82E1A91E092108DC0AD9845E60E97CA /* Info.plist */,
+				C99A8C156273703F8CBC3DBDB0D9540D /* Pods-SparksyAppTests.modulemap */,
+				DF40833BEC4F176FF66E74E5102378CE /* Pods-SparksyAppTests-acknowledgements.markdown */,
+				DAD8121A5C3328901A8C8A3A52F416B4 /* Pods-SparksyAppTests-acknowledgements.plist */,
+				BB4481DE719D450DF1288BDA03EE1B3E /* Pods-SparksyAppTests-dummy.m */,
+				07D233EF61383229B50094601B10220B /* Pods-SparksyAppTests-frameworks.sh */,
+				EE624F85706BB6BA438EFAE964467A2C /* Pods-SparksyAppTests-resources.sh */,
+				AF83EF1F0B9F7309DD750D409469520D /* Pods-SparksyAppTests-umbrella.h */,
+				8AEC16E795BE5D508D144AA27771A5F6 /* Pods-SparksyAppTests.debug.xcconfig */,
+				04FB4F992FE21880D722B388F3CB256D /* Pods-SparksyAppTests.release.xcconfig */,
+			);
+			name = "Pods-SparksyAppTests";
+			path = "Target Support Files/Pods-SparksyAppTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28A93C9364E698CD5B0587D6B28205C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DE5BE16DFB8C796BEF36752FA151B9 /* Pods-SparksyApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECCB5570B7FBF8D348655FFA0FE9C90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6FCF15CC1F4F05C46539443FDA2AAB /* MBProgressHUD-umbrella.h in Headers */,
+				1E7623B9420C3E71FAE3287C0CECA040 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEAE191C5E6A6E3BD43C809797D82CEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20DB8AEBF20EF83EF36A1EE7D484EFF /* Pods-SparksyAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8EDFA191B07A84F72288D957F3273D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33454BCA4C66B221EFD282F4C800E2E /* Pods-SparksyAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7CF9F8EC20724361342DD228A0CE7AFB /* Pods-SparksyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A6BF3CBFCC2278F9286A39EA8B7AB58 /* Build configuration list for PBXNativeTarget "Pods-SparksyApp" */;
+			buildPhases = (
+				CF82A7F63165761A85A891F2303E2C42 /* Sources */,
+				A303E87BA46FB09347230F4027E3E3B0 /* Frameworks */,
+				28A93C9364E698CD5B0587D6B28205C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C4F952B42C5432853E5B159A010EFEE /* PBXTargetDependency */,
+			);
+			name = "Pods-SparksyApp";
+			productName = "Pods-SparksyApp";
+			productReference = 4FFD889DD6C0AFFDDE556FEFBC4780A7 /* Pods_SparksyApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6097311E62857A94F941918DA273108 /* Pods-SparksyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B10BA8A1C7799B411146A9E6D7E8203A /* Build configuration list for PBXNativeTarget "Pods-SparksyAppTests" */;
+			buildPhases = (
+				AB09D8AD9CFB4D62FCE65A984F02DA92 /* Sources */,
+				14162EC79BFD465705F086557F0D24B3 /* Frameworks */,
+				E8EDFA191B07A84F72288D957F3273D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE48D0A61234C76828F22B8BF448CBE /* PBXTargetDependency */,
+			);
+			name = "Pods-SparksyAppTests";
+			productName = "Pods-SparksyAppTests";
+			productReference = 2C3530A4C0D7C7F38C1E5909176B61C5 /* Pods_SparksyAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E61CE3B6DFA1FE6B3E296965C76C0E10 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ECAD3CE95CA19E5AFE91894C857527C /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				2DAFB06DF9D4B76E7F94DA2B8A63DD59 /* Sources */,
+				6488DB2C9BB99C53077D390CE673DD56 /* Frameworks */,
+				9ECCB5570B7FBF8D348655FFA0FE9C90 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = ED1148F80CA16C09EC25BD5635C37AB5 /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFA7D73FC438D00D4C2ECDBBC70DEDB7 /* Pods-SparksyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4348C4974F69BCCE05AA2ACF6AEBD1 /* Build configuration list for PBXNativeTarget "Pods-SparksyAppUITests" */;
+			buildPhases = (
+				51D46ED3E5F062EEFF63868E13698F5D /* Sources */,
+				8D45CED6AC360923076BE7D424635FA7 /* Frameworks */,
+				AEAE191C5E6A6E3BD43C809797D82CEA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528D90FE0B5811F10582D92CD2B088C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SparksyAppUITests";
+			productName = "Pods-SparksyAppUITests";
+			productReference = 2CB8896AB9532A1087067DADE4743A36 /* Pods_SparksyAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 06A83F8DAAACCA355290907ECFC80521 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E61CE3B6DFA1FE6B3E296965C76C0E10 /* MBProgressHUD */,
+				7CF9F8EC20724361342DD228A0CE7AFB /* Pods-SparksyApp */,
+				B6097311E62857A94F941918DA273108 /* Pods-SparksyAppTests */,
+				EFA7D73FC438D00D4C2ECDBBC70DEDB7 /* Pods-SparksyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DAFB06DF9D4B76E7F94DA2B8A63DD59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB010EE04BA829E196554A00A951AA7C /* MBProgressHUD-dummy.m in Sources */,
+				9E17CC11959A1FE5566CE528047ACDC0 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D46ED3E5F062EEFF63868E13698F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DDD68B530D5C298C23DE3DA4E6B2C3 /* Pods-SparksyAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB09D8AD9CFB4D62FCE65A984F02DA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9ABB2B318CA1B843C01B7DBC8D58F89 /* Pods-SparksyAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF82A7F63165761A85A891F2303E2C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95EACA8C4CF4290875825A0014E8AF3 /* Pods-SparksyApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		528D90FE0B5811F10582D92CD2B088C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = E61CE3B6DFA1FE6B3E296965C76C0E10 /* MBProgressHUD */;
+			targetProxy = D9695FDA39C7B0A84C41B2C7AF91F826 /* PBXContainerItemProxy */;
+		};
+		5DE48D0A61234C76828F22B8BF448CBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = E61CE3B6DFA1FE6B3E296965C76C0E10 /* MBProgressHUD */;
+			targetProxy = FD36B64669B20C782115F966788C3F2E /* PBXContainerItemProxy */;
+		};
+		7C4F952B42C5432853E5B159A010EFEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = E61CE3B6DFA1FE6B3E296965C76C0E10 /* MBProgressHUD */;
+			targetProxy = B2912A556811B33B68A897F82775649F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08522B81B9942A0BEAC9876B137EFAE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7199A7BE3A9B54B1A5B8AB62B6EBC96 /* Pods-SparksyAppUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SparksyAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SparksyAppUITests/Pods-SparksyAppUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SparksyAppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D25652427B287BC9DBA432EECDFB45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AEC16E795BE5D508D144AA27771A5F6 /* Pods-SparksyAppTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SparksyAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SparksyAppTests/Pods-SparksyAppTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SparksyAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		406D7B8D77A04493D23CAA8A0D2BDD7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		546AA70089BC6B3C431BC9FC2A0D8226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B4E041E26F3CEBF557BB554EAEC797 /* Pods-SparksyApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SparksyApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SparksyApp/Pods-SparksyApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SparksyApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D8B847340A32C4DABB687E9D9A94691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6A6C698CE45F9FE8837B18BEB93251 /* Pods-SparksyApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SparksyApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SparksyApp/Pods-SparksyApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SparksyApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3B68957E93B17DF9B6301F79F6B1600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E948ED1F4492A2C00E6F93783E891A5 /* Pods-SparksyAppUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SparksyAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SparksyAppUITests/Pods-SparksyAppUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SparksyAppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C0A7C2C78CD05670C18EB14595D24EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5CDBFE85EA9913EA5D03A0C438D3443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FB4F992FE21880D722B388F3CB256D /* Pods-SparksyAppTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SparksyAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SparksyAppTests/Pods-SparksyAppTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SparksyAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ECAD3CE95CA19E5AFE91894C857527C /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A7C2C78CD05670C18EB14595D24EA6 /* Debug */,
+				406D7B8D77A04493D23CAA8A0D2BDD7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A6BF3CBFCC2278F9286A39EA8B7AB58 /* Build configuration list for PBXNativeTarget "Pods-SparksyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8B847340A32C4DABB687E9D9A94691 /* Debug */,
+				546AA70089BC6B3C431BC9FC2A0D8226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B10BA8A1C7799B411146A9E6D7E8203A /* Build configuration list for PBXNativeTarget "Pods-SparksyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D25652427B287BC9DBA432EECDFB45D /* Debug */,
+				D5CDBFE85EA9913EA5D03A0C438D3443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4348C4974F69BCCE05AA2ACF6AEBD1 /* Build configuration list for PBXNativeTarget "Pods-SparksyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08522B81B9942A0BEAC9876B137EFAE9 /* Debug */,
+				B3B68957E93B17DF9B6301F79F6B1600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

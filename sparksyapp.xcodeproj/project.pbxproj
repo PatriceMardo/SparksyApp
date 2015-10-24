@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08C3DA061BDB49660034BB52 /* GreyLogo-58px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3D9FE1BDB49660034BB52 /* GreyLogo-58px.png */; settings = {ASSET_TAGS = (); }; };
+		08C3DA071BDB49660034BB52 /* GreyLogo-80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3D9FF1BDB49660034BB52 /* GreyLogo-80px.png */; settings = {ASSET_TAGS = (); }; };
+		08C3DA081BDB49660034BB52 /* GreyLogo-120px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA001BDB49660034BB52 /* GreyLogo-120px.png */; settings = {ASSET_TAGS = (); }; };
+		08C3DA091BDB49660034BB52 /* GreyLogo-1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA011BDB49660034BB52 /* GreyLogo-1024px.png */; settings = {ASSET_TAGS = (); }; };
+		08C3DA0A1BDB49660034BB52 /* WhiteLogo-58px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA021BDB49660034BB52 /* WhiteLogo-58px.png */; settings = {ASSET_TAGS = (); }; };
+		08C3DA0B1BDB49660034BB52 /* WhiteLogo-80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA031BDB49660034BB52 /* WhiteLogo-80px.png */; settings = {ASSET_TAGS = (); }; };
+		08C3DA0C1BDB49660034BB52 /* WhiteLogo-120px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA041BDB49660034BB52 /* WhiteLogo-120px.png */; settings = {ASSET_TAGS = (); }; };
+		08C3DA0D1BDB49660034BB52 /* WhiteLogo-1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA051BDB49660034BB52 /* WhiteLogo-1024px.png */; settings = {ASSET_TAGS = (); }; };
+		4F895678043B0FF9CB435D86 /* Pods_SparksyAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E2BFA68072F2296E8798C0 /* Pods_SparksyAppUITests.framework */; };
+		7A66F4B91BBF8C10008323B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66F4B81BBF8C10008323B4 /* AppDelegate.swift */; };
+		7A66F4BB1BBF8C10008323B4 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66F4BA1BBF8C10008323B4 /* BrowserViewController.swift */; };
+		7A66F4BE1BBF8C11008323B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A66F4BC1BBF8C11008323B4 /* Main.storyboard */; };
+		7A66F4C11BBF8C11008323B4 /* SparksyApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A66F4BF1BBF8C11008323B4 /* SparksyApp.xcdatamodeld */; };
+		7A66F4C31BBF8C11008323B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A66F4C21BBF8C11008323B4 /* Assets.xcassets */; };
+		7A66F4C61BBF8C11008323B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A66F4C41BBF8C11008323B4 /* LaunchScreen.storyboard */; };
+		7A66F4D11BBF8C12008323B4 /* SparksyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66F4D01BBF8C12008323B4 /* SparksyAppTests.swift */; };
+		7A66F4DC1BBF8C12008323B4 /* SparksyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66F4DB1BBF8C12008323B4 /* SparksyAppUITests.swift */; };
+		7A66F4EA1BBF8D0F008323B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66F4E91BBF8D0F008323B4 /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7A66F4EC1BBF8D26008323B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66F4EB1BBF8D26008323B4 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7A66F4EE1BBF8D36008323B4 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66F4ED1BBF8D36008323B4 /* ResetPasswordViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7A66F4F01BBF8D45008323B4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66F4EF1BBF8D45008323B4 /* SignUpViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7A66F4F21BBF8D50008323B4 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66F4F11BBF8D50008323B4 /* ChatViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7A66F4F41BBF8D5B008323B4 /* MPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66F4F31BBF8D5B008323B4 /* MPCManager.swift */; settings = {ASSET_TAGS = (); }; };
+		7A66F4F71BBF8DE3008323B4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A66F4F51BBF8DE3008323B4 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		7A66F4F81BBF8DE4008323B4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A66F4F61BBF8DE3008323B4 /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		7A66F5051BBF8F62008323B4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A66F4F91BBF8F62008323B4 /* Accounts.framework */; };
+		7A66F5061BBF8F62008323B4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A66F4FA1BBF8F62008323B4 /* AudioToolbox.framework */; };
+		7A66F5071BBF8F62008323B4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A66F4FB1BBF8F62008323B4 /* CFNetwork.framework */; };
+		7A66F5081BBF8F62008323B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A66F4FC1BBF8F62008323B4 /* CoreGraphics.framework */; };
+		7A66F5091BBF8F62008323B4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A66F4FD1BBF8F62008323B4 /* CoreLocation.framework */; };
+		7A66F50A1BBF8F62008323B4 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A66F4FE1BBF8F62008323B4 /* libsqlite3.tbd */; };
+		7A66F50B1BBF8F62008323B4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A66F4FF1BBF8F62008323B4 /* libz.tbd */; };
+		7A66F50C1BBF8F62008323B4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A66F5001BBF8F62008323B4 /* QuartzCore.framework */; };
+		7A66F50D1BBF8F62008323B4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A66F5011BBF8F62008323B4 /* Security.framework */; };
+		7A66F50E1BBF8F62008323B4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A66F5021BBF8F62008323B4 /* Social.framework */; };
+		7A66F50F1BBF8F62008323B4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A66F5031BBF8F62008323B4 /* StoreKit.framework */; };
+		7A66F5101BBF8F62008323B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A66F5041BBF8F62008323B4 /* SystemConfiguration.framework */; };
+		7A8906B51BD20F8700DBE939 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8906AC1BD20F8600DBE939 /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+		7A8906B61BD20F8700DBE939 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8906AC1BD20F8600DBE939 /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+		7A8906B71BD20F8700DBE939 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8906AC1BD20F8600DBE939 /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+		7A8906B81BD20F8700DBE939 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A8906AD1BD20F8600DBE939 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		7A8906B91BD20F8700DBE939 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A8906AD1BD20F8600DBE939 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		7A8906BA1BD20F8700DBE939 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A8906AD1BD20F8600DBE939 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		7A8906BB1BD20F8700DBE939 /* MBProgressHUD.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7A8906AF1BD20F8600DBE939 /* MBProgressHUD.xcconfig */; settings = {ASSET_TAGS = (); }; };
+		7A8906BC1BD20F8700DBE939 /* MBProgressHUD.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7A8906AF1BD20F8600DBE939 /* MBProgressHUD.xcconfig */; settings = {ASSET_TAGS = (); }; };
+		7A8906BD1BD20F8700DBE939 /* MBProgressHUD.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7A8906AF1BD20F8600DBE939 /* MBProgressHUD.xcconfig */; settings = {ASSET_TAGS = (); }; };
+		7A8906BE1BD20F8700DBE939 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8906B01BD20F8600DBE939 /* MBProgressHUD-dummy.m */; settings = {ASSET_TAGS = (); }; };
+		7A8906BF1BD20F8700DBE939 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8906B01BD20F8600DBE939 /* MBProgressHUD-dummy.m */; settings = {ASSET_TAGS = (); }; };
+		7A8906C01BD20F8700DBE939 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8906B01BD20F8600DBE939 /* MBProgressHUD-dummy.m */; settings = {ASSET_TAGS = (); }; };
+		7A8906C31BD2957F00DBE939 /* PeerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8906C11BD2957F00DBE939 /* PeerProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7A8906C41BD2957F00DBE939 /* PeerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8906C11BD2957F00DBE939 /* PeerProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7A8906C51BD2957F00DBE939 /* PeerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8906C11BD2957F00DBE939 /* PeerProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7AF9EF571BD5F95800C1A809 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF9EF561BD5F95800C1A809 /* EditProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ABBCF9DA01BBDE334D3D2184 /* Pods_SparksyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE17D193C1E8D18C3A85CD7 /* Pods_SparksyApp.framework */; };
+		EF4B8BC5AD2EEAD1BD2E197F /* Pods_SparksyAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D96DD874625F637E6F1ECE6 /* Pods_SparksyAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A66F4CD1BBF8C11008323B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A66F4AD1BBF8C10008323B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A66F4B41BBF8C10008323B4;
+			remoteInfo = SparksyApp;
+		};
+		7A66F4D81BBF8C12008323B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A66F4AD1BBF8C10008323B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A66F4B41BBF8C10008323B4;
+			remoteInfo = SparksyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08C3D9FE1BDB49660034BB52 /* GreyLogo-58px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreyLogo-58px.png"; sourceTree = "<group>"; };
+		08C3D9FF1BDB49660034BB52 /* GreyLogo-80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreyLogo-80px.png"; sourceTree = "<group>"; };
+		08C3DA001BDB49660034BB52 /* GreyLogo-120px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreyLogo-120px.png"; sourceTree = "<group>"; };
+		08C3DA011BDB49660034BB52 /* GreyLogo-1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreyLogo-1024px.png"; sourceTree = "<group>"; };
+		08C3DA021BDB49660034BB52 /* WhiteLogo-58px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteLogo-58px.png"; sourceTree = "<group>"; };
+		08C3DA031BDB49660034BB52 /* WhiteLogo-80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteLogo-80px.png"; sourceTree = "<group>"; };
+		08C3DA041BDB49660034BB52 /* WhiteLogo-120px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteLogo-120px.png"; sourceTree = "<group>"; };
+		08C3DA051BDB49660034BB52 /* WhiteLogo-1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteLogo-1024px.png"; sourceTree = "<group>"; };
+		12DDA8C2474B6741F654239F /* Pods-SparksyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparksyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparksyApp/Pods-SparksyApp.release.xcconfig"; sourceTree = "<group>"; };
+		39BC0C56F9FA8F3317B0D140 /* Pods-SparksyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparksyAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparksyAppTests/Pods-SparksyAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		493D6EA4738176B4A93B3B94 /* Pods-SparksyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparksyAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SparksyAppTests/Pods-SparksyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D96DD874625F637E6F1ECE6 /* Pods_SparksyAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparksyAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		724BE929259465CB3E9151CF /* Pods-SparksyAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparksyAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparksyAppUITests/Pods-SparksyAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A66F4B51BBF8C10008323B4 /* SparksyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparksyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A66F4B81BBF8C10008323B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A66F4BA1BBF8C10008323B4 /* BrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		7A66F4BD1BBF8C11008323B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A66F4C01BBF8C11008323B4 /* SparksyApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SparksyApp.xcdatamodel; sourceTree = "<group>"; };
+		7A66F4C21BBF8C11008323B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A66F4C51BBF8C11008323B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A66F4C71BBF8C11008323B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A66F4CC1BBF8C11008323B4 /* SparksyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparksyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A66F4D01BBF8C12008323B4 /* SparksyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparksyAppTests.swift; sourceTree = "<group>"; };
+		7A66F4D21BBF8C12008323B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A66F4D71BBF8C12008323B4 /* SparksyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparksyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A66F4DB1BBF8C12008323B4 /* SparksyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparksyAppUITests.swift; sourceTree = "<group>"; };
+		7A66F4DD1BBF8C12008323B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A66F4E91BBF8D0F008323B4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7A66F4EB1BBF8D26008323B4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7A66F4ED1BBF8D36008323B4 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		7A66F4EF1BBF8D45008323B4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7A66F4F11BBF8D50008323B4 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		7A66F4F31BBF8D5B008323B4 /* MPCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCManager.swift; sourceTree = "<group>"; };
+		7A66F4F51BBF8DE3008323B4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = SparksyApp/Bolts.framework; sourceTree = "<group>"; };
+		7A66F4F61BBF8DE3008323B4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = SparksyApp/Parse.framework; sourceTree = "<group>"; };
+		7A66F4F91BBF8F62008323B4 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		7A66F4FA1BBF8F62008323B4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7A66F4FB1BBF8F62008323B4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7A66F4FC1BBF8F62008323B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A66F4FD1BBF8F62008323B4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7A66F4FE1BBF8F62008323B4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		7A66F4FF1BBF8F62008323B4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7A66F5001BBF8F62008323B4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7A66F5011BBF8F62008323B4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7A66F5021BBF8F62008323B4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		7A66F5031BBF8F62008323B4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7A66F5041BBF8F62008323B4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7A8906AB1BD20F8600DBE939 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		7A8906AC1BD20F8600DBE939 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		7A8906AD1BD20F8600DBE939 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A8906AE1BD20F8600DBE939 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		7A8906AF1BD20F8600DBE939 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		7A8906B01BD20F8600DBE939 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		7A8906B11BD20F8600DBE939 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		7A8906B21BD20F8600DBE939 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		7A8906C11BD2957F00DBE939 /* PeerProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerProfileViewController.swift; sourceTree = "<group>"; };
+		7AF9EF561BD5F95800C1A809 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		7AFFC37F1BD206CE001B350A /* SparksyApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SparksyApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		A16C8E4F42B74B8C89A15AF6 /* Pods-SparksyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparksyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SparksyApp/Pods-SparksyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C34FD4503E9384F9B4C5DF93 /* Pods-SparksyAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparksyAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SparksyAppUITests/Pods-SparksyAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDE17D193C1E8D18C3A85CD7 /* Pods_SparksyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparksyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E2BFA68072F2296E8798C0 /* Pods_SparksyAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparksyAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A66F4B21BBF8C10008323B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A66F5051BBF8F62008323B4 /* Accounts.framework in Frameworks */,
+				7A66F5061BBF8F62008323B4 /* AudioToolbox.framework in Frameworks */,
+				7A66F5071BBF8F62008323B4 /* CFNetwork.framework in Frameworks */,
+				7A66F5081BBF8F62008323B4 /* CoreGraphics.framework in Frameworks */,
+				7A66F5091BBF8F62008323B4 /* CoreLocation.framework in Frameworks */,
+				7A66F50A1BBF8F62008323B4 /* libsqlite3.tbd in Frameworks */,
+				7A66F50B1BBF8F62008323B4 /* libz.tbd in Frameworks */,
+				7A66F50C1BBF8F62008323B4 /* QuartzCore.framework in Frameworks */,
+				7A66F50D1BBF8F62008323B4 /* Security.framework in Frameworks */,
+				7A66F50E1BBF8F62008323B4 /* Social.framework in Frameworks */,
+				7A66F50F1BBF8F62008323B4 /* StoreKit.framework in Frameworks */,
+				7A66F5101BBF8F62008323B4 /* SystemConfiguration.framework in Frameworks */,
+				7A66F4F81BBF8DE4008323B4 /* Parse.framework in Frameworks */,
+				7A66F4F71BBF8DE3008323B4 /* Bolts.framework in Frameworks */,
+				ABBCF9DA01BBDE334D3D2184 /* Pods_SparksyApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A66F4C91BBF8C11008323B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4B8BC5AD2EEAD1BD2E197F /* Pods_SparksyAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A66F4D41BBF8C12008323B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F895678043B0FF9CB435D86 /* Pods_SparksyAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08C3D9FD1BDB49330034BB52 /* Designs */ = {
+			isa = PBXGroup;
+			children = (
+				08C3D9FE1BDB49660034BB52 /* GreyLogo-58px.png */,
+				08C3D9FF1BDB49660034BB52 /* GreyLogo-80px.png */,
+				08C3DA001BDB49660034BB52 /* GreyLogo-120px.png */,
+				08C3DA011BDB49660034BB52 /* GreyLogo-1024px.png */,
+				08C3DA021BDB49660034BB52 /* WhiteLogo-58px.png */,
+				08C3DA031BDB49660034BB52 /* WhiteLogo-80px.png */,
+				08C3DA041BDB49660034BB52 /* WhiteLogo-120px.png */,
+				08C3DA051BDB49660034BB52 /* WhiteLogo-1024px.png */,
+			);
+			name = Designs;
+			sourceTree = "<group>";
+		};
+		7A66F4AC1BBF8C10008323B4 = {
+			isa = PBXGroup;
+			children = (
+				7A8906B41BD20F8600DBE939 /* MBProgressHUD */,
+				7A66F5111BBF8F81008323B4 /* Frameworks */,
+				7A66F4B71BBF8C10008323B4 /* SparksyApp */,
+				7A66F4CF1BBF8C11008323B4 /* SparksyAppTests */,
+				7A66F4DA1BBF8C12008323B4 /* SparksyAppUITests */,
+				7A66F4B61BBF8C10008323B4 /* Products */,
+				988DE054D73AD287A991E9E1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7A66F4B61BBF8C10008323B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A66F4B51BBF8C10008323B4 /* SparksyApp.app */,
+				7A66F4CC1BBF8C11008323B4 /* SparksyAppTests.xctest */,
+				7A66F4D71BBF8C12008323B4 /* SparksyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A66F4B71BBF8C10008323B4 /* SparksyApp */ = {
+			isa = PBXGroup;
+			children = (
+				7A66F4B81BBF8C10008323B4 /* AppDelegate.swift */,
+				7A66F4F31BBF8D5B008323B4 /* MPCManager.swift */,
+				7A66F4BC1BBF8C11008323B4 /* Main.storyboard */,
+				08C3D9FD1BDB49330034BB52 /* Designs */,
+				7A66F4C21BBF8C11008323B4 /* Assets.xcassets */,
+				7A66F4C41BBF8C11008323B4 /* LaunchScreen.storyboard */,
+				7A66F4C71BBF8C11008323B4 /* Info.plist */,
+				7A66F4BF1BBF8C11008323B4 /* SparksyApp.xcdatamodeld */,
+				7A66F4E91BBF8D0F008323B4 /* HomeViewController.swift */,
+				7A66F4BA1BBF8C10008323B4 /* BrowserViewController.swift */,
+				7A66F4EB1BBF8D26008323B4 /* LoginViewController.swift */,
+				7A66F4ED1BBF8D36008323B4 /* ResetPasswordViewController.swift */,
+				7A66F4EF1BBF8D45008323B4 /* SignUpViewController.swift */,
+				7A66F4F11BBF8D50008323B4 /* ChatViewController.swift */,
+				7AFFC37F1BD206CE001B350A /* SparksyApp-Bridging-Header.h */,
+				7A8906C11BD2957F00DBE939 /* PeerProfileViewController.swift */,
+				7AF9EF561BD5F95800C1A809 /* EditProfileViewController.swift */,
+			);
+			path = SparksyApp;
+			sourceTree = "<group>";
+		};
+		7A66F4CF1BBF8C11008323B4 /* SparksyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A66F4D01BBF8C12008323B4 /* SparksyAppTests.swift */,
+				7A66F4D21BBF8C12008323B4 /* Info.plist */,
+			);
+			path = SparksyAppTests;
+			sourceTree = "<group>";
+		};
+		7A66F4DA1BBF8C12008323B4 /* SparksyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A66F4DB1BBF8C12008323B4 /* SparksyAppUITests.swift */,
+				7A66F4DD1BBF8C12008323B4 /* Info.plist */,
+			);
+			path = SparksyAppUITests;
+			sourceTree = "<group>";
+		};
+		7A66F5111BBF8F81008323B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A66F4F51BBF8DE3008323B4 /* Bolts.framework */,
+				7A66F4F61BBF8DE3008323B4 /* Parse.framework */,
+				7A66F4F91BBF8F62008323B4 /* Accounts.framework */,
+				7A66F4FA1BBF8F62008323B4 /* AudioToolbox.framework */,
+				7A66F4FB1BBF8F62008323B4 /* CFNetwork.framework */,
+				7A66F4FC1BBF8F62008323B4 /* CoreGraphics.framework */,
+				7A66F4FD1BBF8F62008323B4 /* CoreLocation.framework */,
+				7A66F4FE1BBF8F62008323B4 /* libsqlite3.tbd */,
+				7A66F4FF1BBF8F62008323B4 /* libz.tbd */,
+				7A66F5001BBF8F62008323B4 /* QuartzCore.framework */,
+				7A66F5011BBF8F62008323B4 /* Security.framework */,
+				7A66F5021BBF8F62008323B4 /* Social.framework */,
+				7A66F5031BBF8F62008323B4 /* StoreKit.framework */,
+				7A66F5041BBF8F62008323B4 /* SystemConfiguration.framework */,
+				CDE17D193C1E8D18C3A85CD7 /* Pods_SparksyApp.framework */,
+				6D96DD874625F637E6F1ECE6 /* Pods_SparksyAppTests.framework */,
+				E7E2BFA68072F2296E8798C0 /* Pods_SparksyAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A8906B31BD20F8600DBE939 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A8906AD1BD20F8600DBE939 /* Info.plist */,
+				7A8906AE1BD20F8600DBE939 /* MBProgressHUD.modulemap */,
+				7A8906AF1BD20F8600DBE939 /* MBProgressHUD.xcconfig */,
+				7A8906B01BD20F8600DBE939 /* MBProgressHUD-dummy.m */,
+				7A8906B11BD20F8600DBE939 /* MBProgressHUD-prefix.pch */,
+				7A8906B21BD20F8600DBE939 /* MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		7A8906B41BD20F8600DBE939 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7A8906AB1BD20F8600DBE939 /* MBProgressHUD.h */,
+				7A8906AC1BD20F8600DBE939 /* MBProgressHUD.m */,
+				7A8906B31BD20F8600DBE939 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = Pods/MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		988DE054D73AD287A991E9E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A16C8E4F42B74B8C89A15AF6 /* Pods-SparksyApp.debug.xcconfig */,
+				12DDA8C2474B6741F654239F /* Pods-SparksyApp.release.xcconfig */,
+				493D6EA4738176B4A93B3B94 /* Pods-SparksyAppTests.debug.xcconfig */,
+				39BC0C56F9FA8F3317B0D140 /* Pods-SparksyAppTests.release.xcconfig */,
+				C34FD4503E9384F9B4C5DF93 /* Pods-SparksyAppUITests.debug.xcconfig */,
+				724BE929259465CB3E9151CF /* Pods-SparksyAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A66F4B41BBF8C10008323B4 /* SparksyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A66F4E01BBF8C12008323B4 /* Build configuration list for PBXNativeTarget "SparksyApp" */;
+			buildPhases = (
+				55E45F57C4C366844735354C /* Check Pods Manifest.lock */,
+				7A66F4B11BBF8C10008323B4 /* Sources */,
+				7A66F4B21BBF8C10008323B4 /* Frameworks */,
+				7A66F4B31BBF8C10008323B4 /* Resources */,
+				02524E4CA3668FE738A05A63 /* Embed Pods Frameworks */,
+				C9B552E0E653039F1FED9D87 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparksyApp;
+			productName = SparksyApp;
+			productReference = 7A66F4B51BBF8C10008323B4 /* SparksyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A66F4CB1BBF8C11008323B4 /* SparksyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A66F4E31BBF8C12008323B4 /* Build configuration list for PBXNativeTarget "SparksyAppTests" */;
+			buildPhases = (
+				C6C0167DDBE7DE2459F3C51D /* Check Pods Manifest.lock */,
+				7A66F4C81BBF8C11008323B4 /* Sources */,
+				7A66F4C91BBF8C11008323B4 /* Frameworks */,
+				7A66F4CA1BBF8C11008323B4 /* Resources */,
+				58CB57E499D372C80819F402 /* Embed Pods Frameworks */,
+				0262932693CF2C3BF8B8D35B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A66F4CE1BBF8C11008323B4 /* PBXTargetDependency */,
+			);
+			name = SparksyAppTests;
+			productName = SparksyAppTests;
+			productReference = 7A66F4CC1BBF8C11008323B4 /* SparksyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A66F4D61BBF8C12008323B4 /* SparksyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A66F4E61BBF8C12008323B4 /* Build configuration list for PBXNativeTarget "SparksyAppUITests" */;
+			buildPhases = (
+				39EA2BA3B97E9F29C5D7E8F7 /* Check Pods Manifest.lock */,
+				7A66F4D31BBF8C12008323B4 /* Sources */,
+				7A66F4D41BBF8C12008323B4 /* Frameworks */,
+				7A66F4D51BBF8C12008323B4 /* Resources */,
+				A7F4E7B39AFECFAD24B93D22 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A66F4D91BBF8C12008323B4 /* PBXTargetDependency */,
+			);
+			name = SparksyAppUITests;
+			productName = SparksyAppUITests;
+			productReference = 7A66F4D71BBF8C12008323B4 /* SparksyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A66F4AD1BBF8C10008323B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Sparksy;
+				TargetAttributes = {
+					7A66F4B41BBF8C10008323B4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = A3YYR4N4UM;
+					};
+					7A66F4CB1BBF8C11008323B4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = A3YYR4N4UM;
+						TestTargetID = 7A66F4B41BBF8C10008323B4;
+					};
+					7A66F4D61BBF8C12008323B4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = A3YYR4N4UM;
+						TestTargetID = 7A66F4B41BBF8C10008323B4;
+					};
+				};
+			};
+			buildConfigurationList = 7A66F4B01BBF8C10008323B4 /* Build configuration list for PBXProject "SparksyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A66F4AC1BBF8C10008323B4;
+			productRefGroup = 7A66F4B61BBF8C10008323B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A66F4B41BBF8C10008323B4 /* SparksyApp */,
+				7A66F4CB1BBF8C11008323B4 /* SparksyAppTests */,
+				7A66F4D61BBF8C12008323B4 /* SparksyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A66F4B31BBF8C10008323B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8906B81BD20F8700DBE939 /* Info.plist in Resources */,
+				08C3DA0A1BDB49660034BB52 /* WhiteLogo-58px.png in Resources */,
+				7A66F4C61BBF8C11008323B4 /* LaunchScreen.storyboard in Resources */,
+				08C3DA0D1BDB49660034BB52 /* WhiteLogo-1024px.png in Resources */,
+				08C3DA091BDB49660034BB52 /* GreyLogo-1024px.png in Resources */,
+				08C3DA0C1BDB49660034BB52 /* WhiteLogo-120px.png in Resources */,
+				08C3DA0B1BDB49660034BB52 /* WhiteLogo-80px.png in Resources */,
+				7A66F4C31BBF8C11008323B4 /* Assets.xcassets in Resources */,
+				08C3DA071BDB49660034BB52 /* GreyLogo-80px.png in Resources */,
+				7A66F4BE1BBF8C11008323B4 /* Main.storyboard in Resources */,
+				08C3DA081BDB49660034BB52 /* GreyLogo-120px.png in Resources */,
+				08C3DA061BDB49660034BB52 /* GreyLogo-58px.png in Resources */,
+				7A8906BB1BD20F8700DBE939 /* MBProgressHUD.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A66F4CA1BBF8C11008323B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8906BC1BD20F8700DBE939 /* MBProgressHUD.xcconfig in Resources */,
+				7A8906B91BD20F8700DBE939 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A66F4D51BBF8C12008323B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8906BD1BD20F8700DBE939 /* MBProgressHUD.xcconfig in Resources */,
+				7A8906BA1BD20F8700DBE939 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02524E4CA3668FE738A05A63 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SparksyApp/Pods-SparksyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0262932693CF2C3BF8B8D35B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SparksyAppTests/Pods-SparksyAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39EA2BA3B97E9F29C5D7E8F7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		55E45F57C4C366844735354C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58CB57E499D372C80819F402 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SparksyAppTests/Pods-SparksyAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F4E7B39AFECFAD24B93D22 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SparksyAppUITests/Pods-SparksyAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6C0167DDBE7DE2459F3C51D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9B552E0E653039F1FED9D87 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SparksyApp/Pods-SparksyApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A66F4B11BBF8C10008323B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF9EF571BD5F95800C1A809 /* EditProfileViewController.swift in Sources */,
+				7A66F4C11BBF8C11008323B4 /* SparksyApp.xcdatamodeld in Sources */,
+				7A66F4F01BBF8D45008323B4 /* SignUpViewController.swift in Sources */,
+				7A8906C31BD2957F00DBE939 /* PeerProfileViewController.swift in Sources */,
+				7A66F4F41BBF8D5B008323B4 /* MPCManager.swift in Sources */,
+				7A66F4F21BBF8D50008323B4 /* ChatViewController.swift in Sources */,
+				7A66F4BB1BBF8C10008323B4 /* BrowserViewController.swift in Sources */,
+				7A66F4B91BBF8C10008323B4 /* AppDelegate.swift in Sources */,
+				7A66F4EE1BBF8D36008323B4 /* ResetPasswordViewController.swift in Sources */,
+				7A8906B51BD20F8700DBE939 /* MBProgressHUD.m in Sources */,
+				7A8906BE1BD20F8700DBE939 /* MBProgressHUD-dummy.m in Sources */,
+				7A66F4EC1BBF8D26008323B4 /* LoginViewController.swift in Sources */,
+				7A66F4EA1BBF8D0F008323B4 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A66F4C81BBF8C11008323B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A66F4D11BBF8C12008323B4 /* SparksyAppTests.swift in Sources */,
+				7A8906B61BD20F8700DBE939 /* MBProgressHUD.m in Sources */,
+				7A8906C41BD2957F00DBE939 /* PeerProfileViewController.swift in Sources */,
+				7A8906BF1BD20F8700DBE939 /* MBProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A66F4D31BBF8C12008323B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A66F4DC1BBF8C12008323B4 /* SparksyAppUITests.swift in Sources */,
+				7A8906B71BD20F8700DBE939 /* MBProgressHUD.m in Sources */,
+				7A8906C51BD2957F00DBE939 /* PeerProfileViewController.swift in Sources */,
+				7A8906C01BD20F8700DBE939 /* MBProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A66F4CE1BBF8C11008323B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A66F4B41BBF8C10008323B4 /* SparksyApp */;
+			targetProxy = 7A66F4CD1BBF8C11008323B4 /* PBXContainerItemProxy */;
+		};
+		7A66F4D91BBF8C12008323B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A66F4B41BBF8C10008323B4 /* SparksyApp */;
+			targetProxy = 7A66F4D81BBF8C12008323B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A66F4BC1BBF8C11008323B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A66F4BD1BBF8C11008323B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A66F4C41BBF8C11008323B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A66F4C51BBF8C11008323B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A66F4DE1BBF8C12008323B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SparksyApp/SparksyApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A66F4DF1BBF8C12008323B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SparksyApp/SparksyApp-Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A66F4E11BBF8C12008323B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A16C8E4F42B74B8C89A15AF6 /* Pods-SparksyApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SparksyApp",
+				);
+				INFOPLIST_FILE = SparksyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sparksy.SparksyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SparksyApp/SparksyApp-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		7A66F4E21BBF8C12008323B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12DDA8C2474B6741F654239F /* Pods-SparksyApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SparksyApp",
+				);
+				INFOPLIST_FILE = SparksyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sparksy.SparksyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SparksyApp/SparksyApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		7A66F4E41BBF8C12008323B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493D6EA4738176B4A93B3B94 /* Pods-SparksyAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SparksyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sparksy.SparksyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SparksyApp.app/SparksyApp";
+			};
+			name = Debug;
+		};
+		7A66F4E51BBF8C12008323B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39BC0C56F9FA8F3317B0D140 /* Pods-SparksyAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SparksyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sparksy.SparksyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SparksyApp.app/SparksyApp";
+			};
+			name = Release;
+		};
+		7A66F4E71BBF8C12008323B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C34FD4503E9384F9B4C5DF93 /* Pods-SparksyAppUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SparksyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sparksy.SparksyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SparksyApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7A66F4E81BBF8C12008323B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724BE929259465CB3E9151CF /* Pods-SparksyAppUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SparksyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sparksy.SparksyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SparksyApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A66F4B01BBF8C10008323B4 /* Build configuration list for PBXProject "SparksyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A66F4DE1BBF8C12008323B4 /* Debug */,
+				7A66F4DF1BBF8C12008323B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A66F4E01BBF8C12008323B4 /* Build configuration list for PBXNativeTarget "SparksyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A66F4E11BBF8C12008323B4 /* Debug */,
+				7A66F4E21BBF8C12008323B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A66F4E31BBF8C12008323B4 /* Build configuration list for PBXNativeTarget "SparksyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A66F4E41BBF8C12008323B4 /* Debug */,
+				7A66F4E51BBF8C12008323B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A66F4E61BBF8C12008323B4 /* Build configuration list for PBXNativeTarget "SparksyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A66F4E71BBF8C12008323B4 /* Debug */,
+				7A66F4E81BBF8C12008323B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A66F4BF1BBF8C11008323B4 /* SparksyApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A66F4C01BBF8C11008323B4 /* SparksyApp.xcdatamodel */,
+			);
+			currentVersion = 7A66F4C01BBF8C11008323B4 /* SparksyApp.xcdatamodel */;
+			path = SparksyApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A66F4AD1BBF8C10008323B4 /* Project object */;
+}

@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "Custom Login": {
+      "applicationId": "Fuz6DkPYCt00odhvTEaXsAcfC4nNioMwfvPmMR1Y"
+    },
+    "_default": {
+      "link": "Custom Login"
+    }
+  }
+}
