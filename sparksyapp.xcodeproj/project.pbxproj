@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08C3DA061BDB49660034BB52 /* GreyLogo-58px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3D9FE1BDB49660034BB52 /* GreyLogo-58px.png */; settings = {ASSET_TAGS = (); }; };
-		08C3DA071BDB49660034BB52 /* GreyLogo-80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3D9FF1BDB49660034BB52 /* GreyLogo-80px.png */; settings = {ASSET_TAGS = (); }; };
-		08C3DA081BDB49660034BB52 /* GreyLogo-120px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA001BDB49660034BB52 /* GreyLogo-120px.png */; settings = {ASSET_TAGS = (); }; };
-		08C3DA091BDB49660034BB52 /* GreyLogo-1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA011BDB49660034BB52 /* GreyLogo-1024px.png */; settings = {ASSET_TAGS = (); }; };
-		08C3DA0A1BDB49660034BB52 /* WhiteLogo-58px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA021BDB49660034BB52 /* WhiteLogo-58px.png */; settings = {ASSET_TAGS = (); }; };
-		08C3DA0B1BDB49660034BB52 /* WhiteLogo-80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA031BDB49660034BB52 /* WhiteLogo-80px.png */; settings = {ASSET_TAGS = (); }; };
-		08C3DA0C1BDB49660034BB52 /* WhiteLogo-120px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA041BDB49660034BB52 /* WhiteLogo-120px.png */; settings = {ASSET_TAGS = (); }; };
-		08C3DA0D1BDB49660034BB52 /* WhiteLogo-1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA051BDB49660034BB52 /* WhiteLogo-1024px.png */; settings = {ASSET_TAGS = (); }; };
+		085026DB1BDC57BF009C4453 /* SparkLogo-120px.png in Resources */ = {isa = PBXBuildFile; fileRef = 085026D71BDC57BF009C4453 /* SparkLogo-120px.png */; settings = {ASSET_TAGS = (); }; };
+		085026DC1BDC57BF009C4453 /* SparkLogo-80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 085026D81BDC57BF009C4453 /* SparkLogo-80px.png */; settings = {ASSET_TAGS = (); }; };
+		085026DD1BDC57BF009C4453 /* SparkLogo-1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = 085026D91BDC57BF009C4453 /* SparkLogo-1024px.png */; settings = {ASSET_TAGS = (); }; };
+		085026DE1BDC57BF009C4453 /* SparkLogo-58px.png in Resources */ = {isa = PBXBuildFile; fileRef = 085026DA1BDC57BF009C4453 /* SparkLogo-58px.png */; settings = {ASSET_TAGS = (); }; };
+		085026E31BDC5D32009C4453 /* FilledSparkLogo-1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = 085026DF1BDC5D32009C4453 /* FilledSparkLogo-1024px.png */; settings = {ASSET_TAGS = (); }; };
+		085026E41BDC5D32009C4453 /* FilledSparkLogo-58px.png in Resources */ = {isa = PBXBuildFile; fileRef = 085026E01BDC5D32009C4453 /* FilledSparkLogo-58px.png */; settings = {ASSET_TAGS = (); }; };
+		085026E51BDC5D32009C4453 /* FilledSparkLogo-80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 085026E11BDC5D32009C4453 /* FilledSparkLogo-80px.png */; settings = {ASSET_TAGS = (); }; };
+		085026E61BDC5D32009C4453 /* FilledSparkLogo-120px.png in Resources */ = {isa = PBXBuildFile; fileRef = 085026E21BDC5D32009C4453 /* FilledSparkLogo-120px.png */; settings = {ASSET_TAGS = (); }; };
+		08C3DA2E1BDC25590034BB52 /* MagentaLogo-58px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA1A1BDC25590034BB52 /* MagentaLogo-58px.png */; settings = {ASSET_TAGS = (); }; };
+		08C3DA2F1BDC25590034BB52 /* MagentaLogo-80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA1B1BDC25590034BB52 /* MagentaLogo-80px.png */; settings = {ASSET_TAGS = (); }; };
+		08C3DA301BDC25590034BB52 /* MagentaLogo120px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA1C1BDC25590034BB52 /* MagentaLogo120px.png */; settings = {ASSET_TAGS = (); }; };
+		08C3DA311BDC25590034BB52 /* MagentaLogo-1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA1D1BDC25590034BB52 /* MagentaLogo-1024px.png */; settings = {ASSET_TAGS = (); }; };
+		08C3DA381BDC30980034BB52 /* PinkBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA371BDC30980034BB52 /* PinkBackground.png */; settings = {ASSET_TAGS = (); }; };
 		4F895678043B0FF9CB435D86 /* Pods_SparksyAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E2BFA68072F2296E8798C0 /* Pods_SparksyAppUITests.framework */; };
 		7A66F4B91BBF8C10008323B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66F4B81BBF8C10008323B4 /* AppDelegate.swift */; };
 		7A66F4BB1BBF8C10008323B4 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66F4BA1BBF8C10008323B4 /* BrowserViewController.swift */; };
@@ -82,14 +87,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08C3D9FE1BDB49660034BB52 /* GreyLogo-58px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreyLogo-58px.png"; sourceTree = "<group>"; };
-		08C3D9FF1BDB49660034BB52 /* GreyLogo-80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreyLogo-80px.png"; sourceTree = "<group>"; };
-		08C3DA001BDB49660034BB52 /* GreyLogo-120px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreyLogo-120px.png"; sourceTree = "<group>"; };
-		08C3DA011BDB49660034BB52 /* GreyLogo-1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreyLogo-1024px.png"; sourceTree = "<group>"; };
-		08C3DA021BDB49660034BB52 /* WhiteLogo-58px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteLogo-58px.png"; sourceTree = "<group>"; };
-		08C3DA031BDB49660034BB52 /* WhiteLogo-80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteLogo-80px.png"; sourceTree = "<group>"; };
-		08C3DA041BDB49660034BB52 /* WhiteLogo-120px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteLogo-120px.png"; sourceTree = "<group>"; };
-		08C3DA051BDB49660034BB52 /* WhiteLogo-1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteLogo-1024px.png"; sourceTree = "<group>"; };
+		085026D71BDC57BF009C4453 /* SparkLogo-120px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SparkLogo-120px.png"; sourceTree = "<group>"; };
+		085026D81BDC57BF009C4453 /* SparkLogo-80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SparkLogo-80px.png"; sourceTree = "<group>"; };
+		085026D91BDC57BF009C4453 /* SparkLogo-1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SparkLogo-1024px.png"; sourceTree = "<group>"; };
+		085026DA1BDC57BF009C4453 /* SparkLogo-58px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SparkLogo-58px.png"; sourceTree = "<group>"; };
+		085026DF1BDC5D32009C4453 /* FilledSparkLogo-1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FilledSparkLogo-1024px.png"; sourceTree = "<group>"; };
+		085026E01BDC5D32009C4453 /* FilledSparkLogo-58px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FilledSparkLogo-58px.png"; sourceTree = "<group>"; };
+		085026E11BDC5D32009C4453 /* FilledSparkLogo-80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FilledSparkLogo-80px.png"; sourceTree = "<group>"; };
+		085026E21BDC5D32009C4453 /* FilledSparkLogo-120px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FilledSparkLogo-120px.png"; sourceTree = "<group>"; };
+		08C3DA1A1BDC25590034BB52 /* MagentaLogo-58px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MagentaLogo-58px.png"; sourceTree = "<group>"; };
+		08C3DA1B1BDC25590034BB52 /* MagentaLogo-80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MagentaLogo-80px.png"; sourceTree = "<group>"; };
+		08C3DA1C1BDC25590034BB52 /* MagentaLogo120px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MagentaLogo120px.png; sourceTree = "<group>"; };
+		08C3DA1D1BDC25590034BB52 /* MagentaLogo-1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MagentaLogo-1024px.png"; sourceTree = "<group>"; };
+		08C3DA371BDC30980034BB52 /* PinkBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinkBackground.png; sourceTree = "<group>"; };
 		12DDA8C2474B6741F654239F /* Pods-SparksyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparksyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparksyApp/Pods-SparksyApp.release.xcconfig"; sourceTree = "<group>"; };
 		39BC0C56F9FA8F3317B0D140 /* Pods-SparksyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparksyAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparksyAppTests/Pods-SparksyAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		493D6EA4738176B4A93B3B94 /* Pods-SparksyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparksyAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SparksyAppTests/Pods-SparksyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -191,14 +201,19 @@
 		08C3D9FD1BDB49330034BB52 /* Designs */ = {
 			isa = PBXGroup;
 			children = (
-				08C3D9FE1BDB49660034BB52 /* GreyLogo-58px.png */,
-				08C3D9FF1BDB49660034BB52 /* GreyLogo-80px.png */,
-				08C3DA001BDB49660034BB52 /* GreyLogo-120px.png */,
-				08C3DA011BDB49660034BB52 /* GreyLogo-1024px.png */,
-				08C3DA021BDB49660034BB52 /* WhiteLogo-58px.png */,
-				08C3DA031BDB49660034BB52 /* WhiteLogo-80px.png */,
-				08C3DA041BDB49660034BB52 /* WhiteLogo-120px.png */,
-				08C3DA051BDB49660034BB52 /* WhiteLogo-1024px.png */,
+				085026DF1BDC5D32009C4453 /* FilledSparkLogo-1024px.png */,
+				085026E01BDC5D32009C4453 /* FilledSparkLogo-58px.png */,
+				085026E11BDC5D32009C4453 /* FilledSparkLogo-80px.png */,
+				085026E21BDC5D32009C4453 /* FilledSparkLogo-120px.png */,
+				085026D71BDC57BF009C4453 /* SparkLogo-120px.png */,
+				085026D81BDC57BF009C4453 /* SparkLogo-80px.png */,
+				085026D91BDC57BF009C4453 /* SparkLogo-1024px.png */,
+				085026DA1BDC57BF009C4453 /* SparkLogo-58px.png */,
+				08C3DA371BDC30980034BB52 /* PinkBackground.png */,
+				08C3DA1A1BDC25590034BB52 /* MagentaLogo-58px.png */,
+				08C3DA1B1BDC25590034BB52 /* MagentaLogo-80px.png */,
+				08C3DA1C1BDC25590034BB52 /* MagentaLogo120px.png */,
+				08C3DA1D1BDC25590034BB52 /* MagentaLogo-1024px.png */,
 			);
 			name = Designs;
 			sourceTree = "<group>";
@@ -419,7 +434,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7A66F4B01BBF8C10008323B4 /* Build configuration list for PBXProject "SparksyApp" */;
+			buildConfigurationList = 7A66F4B01BBF8C10008323B4 /* Build configuration list for PBXProject "sparksyapp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -444,19 +459,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				085026DB1BDC57BF009C4453 /* SparkLogo-120px.png in Resources */,
 				7A8906B81BD20F8700DBE939 /* Info.plist in Resources */,
-				08C3DA0A1BDB49660034BB52 /* WhiteLogo-58px.png in Resources */,
 				7A66F4C61BBF8C11008323B4 /* LaunchScreen.storyboard in Resources */,
-				08C3DA0D1BDB49660034BB52 /* WhiteLogo-1024px.png in Resources */,
-				08C3DA091BDB49660034BB52 /* GreyLogo-1024px.png in Resources */,
-				08C3DA0C1BDB49660034BB52 /* WhiteLogo-120px.png in Resources */,
-				08C3DA0B1BDB49660034BB52 /* WhiteLogo-80px.png in Resources */,
+				085026E31BDC5D32009C4453 /* FilledSparkLogo-1024px.png in Resources */,
+				085026DE1BDC57BF009C4453 /* SparkLogo-58px.png in Resources */,
+				08C3DA301BDC25590034BB52 /* MagentaLogo120px.png in Resources */,
+				08C3DA2E1BDC25590034BB52 /* MagentaLogo-58px.png in Resources */,
 				7A66F4C31BBF8C11008323B4 /* Assets.xcassets in Resources */,
-				08C3DA071BDB49660034BB52 /* GreyLogo-80px.png in Resources */,
 				7A66F4BE1BBF8C11008323B4 /* Main.storyboard in Resources */,
-				08C3DA081BDB49660034BB52 /* GreyLogo-120px.png in Resources */,
-				08C3DA061BDB49660034BB52 /* GreyLogo-58px.png in Resources */,
 				7A8906BB1BD20F8700DBE939 /* MBProgressHUD.xcconfig in Resources */,
+				085026DC1BDC57BF009C4453 /* SparkLogo-80px.png in Resources */,
+				085026E51BDC5D32009C4453 /* FilledSparkLogo-80px.png in Resources */,
+				08C3DA381BDC30980034BB52 /* PinkBackground.png in Resources */,
+				085026DD1BDC57BF009C4453 /* SparkLogo-1024px.png in Resources */,
+				085026E61BDC5D32009C4453 /* FilledSparkLogo-120px.png in Resources */,
+				08C3DA311BDC25590034BB52 /* MagentaLogo-1024px.png in Resources */,
+				08C3DA2F1BDC25590034BB52 /* MagentaLogo-80px.png in Resources */,
+				085026E41BDC5D32009C4453 /* FilledSparkLogo-58px.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -855,7 +875,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A66F4B01BBF8C10008323B4 /* Build configuration list for PBXProject "SparksyApp" */ = {
+		7A66F4B01BBF8C10008323B4 /* Build configuration list for PBXProject "sparksyapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A66F4DE1BBF8C12008323B4 /* Debug */,
