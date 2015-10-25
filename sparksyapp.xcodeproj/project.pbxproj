@@ -15,6 +15,9 @@
 		085026E41BDC5D32009C4453 /* FilledSparkLogo-58px.png in Resources */ = {isa = PBXBuildFile; fileRef = 085026E01BDC5D32009C4453 /* FilledSparkLogo-58px.png */; settings = {ASSET_TAGS = (); }; };
 		085026E51BDC5D32009C4453 /* FilledSparkLogo-80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 085026E11BDC5D32009C4453 /* FilledSparkLogo-80px.png */; settings = {ASSET_TAGS = (); }; };
 		085026E61BDC5D32009C4453 /* FilledSparkLogo-120px.png in Resources */ = {isa = PBXBuildFile; fileRef = 085026E21BDC5D32009C4453 /* FilledSparkLogo-120px.png */; settings = {ASSET_TAGS = (); }; };
+		085027301BDCB6AD009C4453 /* BackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0850272F1BDCB6AD009C4453 /* BackButton.png */; settings = {ASSET_TAGS = (); }; };
+		085027321BDCB6EF009C4453 /* Key-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 085027311BDCB6EF009C4453 /* Key-50.png */; settings = {ASSET_TAGS = (); }; };
+		085027341BDCB6FF009C4453 /* User Male-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 085027331BDCB6FF009C4453 /* User Male-50.png */; settings = {ASSET_TAGS = (); }; };
 		08C3DA2E1BDC25590034BB52 /* MagentaLogo-58px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA1A1BDC25590034BB52 /* MagentaLogo-58px.png */; settings = {ASSET_TAGS = (); }; };
 		08C3DA2F1BDC25590034BB52 /* MagentaLogo-80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA1B1BDC25590034BB52 /* MagentaLogo-80px.png */; settings = {ASSET_TAGS = (); }; };
 		08C3DA301BDC25590034BB52 /* MagentaLogo120px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA1C1BDC25590034BB52 /* MagentaLogo120px.png */; settings = {ASSET_TAGS = (); }; };
@@ -95,6 +98,9 @@
 		085026E01BDC5D32009C4453 /* FilledSparkLogo-58px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FilledSparkLogo-58px.png"; sourceTree = "<group>"; };
 		085026E11BDC5D32009C4453 /* FilledSparkLogo-80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FilledSparkLogo-80px.png"; sourceTree = "<group>"; };
 		085026E21BDC5D32009C4453 /* FilledSparkLogo-120px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FilledSparkLogo-120px.png"; sourceTree = "<group>"; };
+		0850272F1BDCB6AD009C4453 /* BackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackButton.png; sourceTree = "<group>"; };
+		085027311BDCB6EF009C4453 /* Key-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Key-50.png"; sourceTree = "<group>"; };
+		085027331BDCB6FF009C4453 /* User Male-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User Male-50.png"; sourceTree = "<group>"; };
 		08C3DA1A1BDC25590034BB52 /* MagentaLogo-58px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MagentaLogo-58px.png"; sourceTree = "<group>"; };
 		08C3DA1B1BDC25590034BB52 /* MagentaLogo-80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MagentaLogo-80px.png"; sourceTree = "<group>"; };
 		08C3DA1C1BDC25590034BB52 /* MagentaLogo120px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MagentaLogo120px.png; sourceTree = "<group>"; };
@@ -201,6 +207,9 @@
 		08C3D9FD1BDB49330034BB52 /* Designs */ = {
 			isa = PBXGroup;
 			children = (
+				085027311BDCB6EF009C4453 /* Key-50.png */,
+				085027331BDCB6FF009C4453 /* User Male-50.png */,
+				0850272F1BDCB6AD009C4453 /* BackButton.png */,
 				085026DF1BDC5D32009C4453 /* FilledSparkLogo-1024px.png */,
 				085026E01BDC5D32009C4453 /* FilledSparkLogo-58px.png */,
 				085026E11BDC5D32009C4453 /* FilledSparkLogo-80px.png */,
@@ -462,8 +471,11 @@
 				085026DB1BDC57BF009C4453 /* SparkLogo-120px.png in Resources */,
 				7A8906B81BD20F8700DBE939 /* Info.plist in Resources */,
 				7A66F4C61BBF8C11008323B4 /* LaunchScreen.storyboard in Resources */,
+				085027301BDCB6AD009C4453 /* BackButton.png in Resources */,
+				085027321BDCB6EF009C4453 /* Key-50.png in Resources */,
 				085026E31BDC5D32009C4453 /* FilledSparkLogo-1024px.png in Resources */,
 				085026DE1BDC57BF009C4453 /* SparkLogo-58px.png in Resources */,
+				085027341BDCB6FF009C4453 /* User Male-50.png in Resources */,
 				08C3DA301BDC25590034BB52 /* MagentaLogo120px.png in Resources */,
 				08C3DA2E1BDC25590034BB52 /* MagentaLogo-58px.png in Resources */,
 				7A66F4C31BBF8C11008323B4 /* Assets.xcassets in Resources */,
