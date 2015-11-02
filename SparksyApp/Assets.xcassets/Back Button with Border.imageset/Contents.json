@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Settings-44x44.png",
+      "filename" : "BackwithBorder-44x44.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Settings-60x60.png",
+      "filename" : "BackwithBorder-60x60.png",
       "scale" : "2x"
     },
     {

@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Settings-44x44.png",
+      "filename" : "Key-44x44.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Settings-60x60.png",
+      "filename" : "Key-60x60.png",
       "scale" : "2x"
     },
     {
