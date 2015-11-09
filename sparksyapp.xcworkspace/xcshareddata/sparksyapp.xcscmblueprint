@@ -1,18 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++3710978",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++09108FF",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++3710978" : 0,
-    "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++824016E" : 0,
-    "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++3874F6B" : 0
+    "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++5379215" : 0,
+    "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++09108FF" : 0,
+    "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++97787A9" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E054A8FB-E882-4555-A429-D6D658B6BC4A",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++3710978" : "SparksyApp\/",
-    "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++824016E" : "SparksyApp\/sparksyapp\/",
-    "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++3874F6B" : "SparksyApp\/sparksyapp\/"
+    "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++5379215" : "SparksyApp\/sparksyapp\/",
+    "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++09108FF" : "SparksyApp\/",
+    "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++97787A9" : "SparksyApp\/sparksyapp\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "sparksyapp",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -21,17 +21,17 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PatriceMardo\/SparksyApp.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++3710978"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PatriceMardo\/SparksyApp.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++3874F6B"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++09108FF"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ronnyvega\/SparksyApp.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++824016E"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++5379215"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PatriceMardo\/SparksyApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09D141BEA936DFD334AC2FE96A476A865A9F86F4+++97787A9"
     }
   ]
 }

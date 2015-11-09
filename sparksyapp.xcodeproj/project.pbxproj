@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0800953A1BF066690096FEE5 /* FinalLogo-58px.png in Resources */ = {isa = PBXBuildFile; fileRef = 080095361BF066690096FEE5 /* FinalLogo-58px.png */; settings = {ASSET_TAGS = (); }; };
+		0800953B1BF066690096FEE5 /* FinalLogo-80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 080095371BF066690096FEE5 /* FinalLogo-80px.png */; settings = {ASSET_TAGS = (); }; };
+		0800953C1BF066690096FEE5 /* FinalLogo-120px.png in Resources */ = {isa = PBXBuildFile; fileRef = 080095381BF066690096FEE5 /* FinalLogo-120px.png */; settings = {ASSET_TAGS = (); }; };
+		0800953D1BF066690096FEE5 /* FinalLogo-1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = 080095391BF066690096FEE5 /* FinalLogo-1024px.png */; settings = {ASSET_TAGS = (); }; };
 		085027341BDCB6FF009C4453 /* User Male-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 085027331BDCB6FF009C4453 /* User Male-50.png */; settings = {ASSET_TAGS = (); }; };
 		08C3DA381BDC30980034BB52 /* PinkBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3DA371BDC30980034BB52 /* PinkBackground.png */; settings = {ASSET_TAGS = (); }; };
-		08F6DBB31BE71D0A000D36A8 /* PinkEye-58px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08F6DBAF1BE71D0A000D36A8 /* PinkEye-58px.png */; settings = {ASSET_TAGS = (); }; };
-		08F6DBB41BE71D0A000D36A8 /* PinkEye-80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08F6DBB01BE71D0A000D36A8 /* PinkEye-80px.png */; settings = {ASSET_TAGS = (); }; };
-		08F6DBB51BE71D0A000D36A8 /* PinkEye-120px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08F6DBB11BE71D0A000D36A8 /* PinkEye-120px.png */; settings = {ASSET_TAGS = (); }; };
-		08F6DBB61BE71D0A000D36A8 /* PinkEye-1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = 08F6DBB21BE71D0A000D36A8 /* PinkEye-1024px.png */; settings = {ASSET_TAGS = (); }; };
 		08F6DBB91BE720DA000D36A8 /* BackwithBorder-44x44.png in Resources */ = {isa = PBXBuildFile; fileRef = 08F6DBB71BE720DA000D36A8 /* BackwithBorder-44x44.png */; settings = {ASSET_TAGS = (); }; };
 		08F6DBBA1BE720DA000D36A8 /* BackwithBorder-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 08F6DBB81BE720DA000D36A8 /* BackwithBorder-60x60.png */; settings = {ASSET_TAGS = (); }; };
 		08F6DBBC1BE7213E000D36A8 /* BackOnly-33x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 08F6DBBB1BE7213E000D36A8 /* BackOnly-33x60.png */; settings = {ASSET_TAGS = (); }; };
@@ -96,12 +96,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		080095361BF066690096FEE5 /* FinalLogo-58px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FinalLogo-58px.png"; path = "../../Sparksy Designs/FinalLogo-58px.png"; sourceTree = "<group>"; };
+		080095371BF066690096FEE5 /* FinalLogo-80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FinalLogo-80px.png"; path = "../../Sparksy Designs/FinalLogo-80px.png"; sourceTree = "<group>"; };
+		080095381BF066690096FEE5 /* FinalLogo-120px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FinalLogo-120px.png"; path = "../../Sparksy Designs/FinalLogo-120px.png"; sourceTree = "<group>"; };
+		080095391BF066690096FEE5 /* FinalLogo-1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FinalLogo-1024px.png"; path = "../../Sparksy Designs/FinalLogo-1024px.png"; sourceTree = "<group>"; };
 		085027331BDCB6FF009C4453 /* User Male-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User Male-50.png"; sourceTree = "<group>"; };
 		08C3DA371BDC30980034BB52 /* PinkBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinkBackground.png; sourceTree = "<group>"; };
-		08F6DBAF1BE71D0A000D36A8 /* PinkEye-58px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PinkEye-58px.png"; sourceTree = "<group>"; };
-		08F6DBB01BE71D0A000D36A8 /* PinkEye-80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PinkEye-80px.png"; sourceTree = "<group>"; };
-		08F6DBB11BE71D0A000D36A8 /* PinkEye-120px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PinkEye-120px.png"; sourceTree = "<group>"; };
-		08F6DBB21BE71D0A000D36A8 /* PinkEye-1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PinkEye-1024px.png"; sourceTree = "<group>"; };
 		08F6DBB71BE720DA000D36A8 /* BackwithBorder-44x44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackwithBorder-44x44.png"; sourceTree = "<group>"; };
 		08F6DBB81BE720DA000D36A8 /* BackwithBorder-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackwithBorder-60x60.png"; sourceTree = "<group>"; };
 		08F6DBBB1BE7213E000D36A8 /* BackOnly-33x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackOnly-33x60.png"; sourceTree = "<group>"; };
@@ -219,6 +219,10 @@
 		08C3D9FD1BDB49330034BB52 /* Designs */ = {
 			isa = PBXGroup;
 			children = (
+				080095361BF066690096FEE5 /* FinalLogo-58px.png */,
+				080095371BF066690096FEE5 /* FinalLogo-80px.png */,
+				080095381BF066690096FEE5 /* FinalLogo-120px.png */,
+				080095391BF066690096FEE5 /* FinalLogo-1024px.png */,
 				08F6DBCF1BE72B67000D36A8 /* HomeWhite-54x44.png */,
 				08F6DBD01BE72B67000D36A8 /* MessagesWhite-40x44.png */,
 				08F6DBD11BE72B67000D36A8 /* MessagesWhite-55x60.png */,
@@ -235,10 +239,6 @@
 				08F6DBBB1BE7213E000D36A8 /* BackOnly-33x60.png */,
 				08F6DBB71BE720DA000D36A8 /* BackwithBorder-44x44.png */,
 				08F6DBB81BE720DA000D36A8 /* BackwithBorder-60x60.png */,
-				08F6DBAF1BE71D0A000D36A8 /* PinkEye-58px.png */,
-				08F6DBB01BE71D0A000D36A8 /* PinkEye-80px.png */,
-				08F6DBB11BE71D0A000D36A8 /* PinkEye-120px.png */,
-				08F6DBB21BE71D0A000D36A8 /* PinkEye-1024px.png */,
 				085027331BDCB6FF009C4453 /* User Male-50.png */,
 				08C3DA371BDC30980034BB52 /* PinkBackground.png */,
 			);
@@ -461,7 +461,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7A66F4B01BBF8C10008323B4 /* Build configuration list for PBXProject "SparksyApp" */;
+			buildConfigurationList = 7A66F4B01BBF8C10008323B4 /* Build configuration list for PBXProject "sparksyapp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -488,20 +488,21 @@
 			files = (
 				7A8906B81BD20F8700DBE939 /* Info.plist in Resources */,
 				08F6DBC71BE728D3000D36A8 /* KeyGrey-44x44.png in Resources */,
+				0800953A1BF066690096FEE5 /* FinalLogo-58px.png in Resources */,
+				0800953C1BF066690096FEE5 /* FinalLogo-120px.png in Resources */,
 				7A66F4C61BBF8C11008323B4 /* LaunchScreen.storyboard in Resources */,
 				08F6DBD61BE72B67000D36A8 /* HomeWhite-74x60.png in Resources */,
 				085027341BDCB6FF009C4453 /* User Male-50.png in Resources */,
+				0800953B1BF066690096FEE5 /* FinalLogo-80px.png in Resources */,
 				7A66F4C31BBF8C11008323B4 /* Assets.xcassets in Resources */,
 				08F6DBD41BE72B67000D36A8 /* MessagesWhite-40x44.png in Resources */,
 				08F6DBD51BE72B67000D36A8 /* MessagesWhite-55x60.png in Resources */,
 				08F6DBC81BE728D3000D36A8 /* Key-60x60.png in Resources */,
-				08F6DBB41BE71D0A000D36A8 /* PinkEye-80px.png in Resources */,
-				08F6DBB31BE71D0A000D36A8 /* PinkEye-58px.png in Resources */,
 				08F6DBC21BE7233A000D36A8 /* Settings-44x44.png in Resources */,
 				7A66F4BE1BBF8C11008323B4 /* Main.storyboard in Resources */,
 				08F6DBD31BE72B67000D36A8 /* HomeWhite-54x44.png in Resources */,
+				0800953D1BF066690096FEE5 /* FinalLogo-1024px.png in Resources */,
 				08F6DBBC1BE7213E000D36A8 /* BackOnly-33x60.png in Resources */,
-				08F6DBB51BE71D0A000D36A8 /* PinkEye-120px.png in Resources */,
 				7A8906BB1BD20F8700DBE939 /* MBProgressHUD.xcconfig in Resources */,
 				08F6DBB91BE720DA000D36A8 /* BackwithBorder-44x44.png in Resources */,
 				08F6DBCD1BE729C8000D36A8 /* Home-54x44.png in Resources */,
@@ -509,7 +510,6 @@
 				08F6DBCA1BE728D3000D36A8 /* KeyGrey-60x60.png in Resources */,
 				08F6DBC11BE7233A000D36A8 /* Settings-60x60.png in Resources */,
 				08F6DBBA1BE720DA000D36A8 /* BackwithBorder-60x60.png in Resources */,
-				08F6DBB61BE71D0A000D36A8 /* PinkEye-1024px.png in Resources */,
 				08C3DA381BDC30980034BB52 /* PinkBackground.png in Resources */,
 				08F6DBCE1BE729C8000D36A8 /* Home-74x60.png in Resources */,
 				08F6DBBE1BE72142000D36A8 /* BackOnly-24x44.png in Resources */,
@@ -911,7 +911,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A66F4B01BBF8C10008323B4 /* Build configuration list for PBXProject "SparksyApp" */ = {
+		7A66F4B01BBF8C10008323B4 /* Build configuration list for PBXProject "sparksyapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A66F4DE1BBF8C12008323B4 /* Debug */,
